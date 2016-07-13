@@ -1,4 +1,4 @@
-# Steamskadi
+# Skadisteam
 
 ## Packages
 | Package          | Github Repository                                                         | Nuget Package                                                        | Version |  Build Status - Windows |
