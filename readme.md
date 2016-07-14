@@ -79,3 +79,16 @@
 ### skadiprices.steamdata
 - Make api access to [steamdata.io](https://steamdata.io/) with an api key
 - Should be similar to the csgofast package
+
+## Contributing
+
+For basic support and questions create an issue and ask there.
+
+Otherwise. General contribution works like:
+- Create a fork of the project
+- add your changes
+- submit a pull request
+
+Also be sure to follow these guidelines:
+- [C# Code style guide](https://github.com/igeligel/contributing-template/blob/master/code-style/csharp.md)
+- [Commit style guide](https://github.com/igeligel/contributing-template/blob/master/commits.md)
