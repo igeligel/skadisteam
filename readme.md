@@ -30,6 +30,11 @@
 | ------- | ------------ | --------- |
 | -/- | -/- | -/- |
 
+## Examples
+I would be really happy for examples using the api parts. Just create a pull request with the example project and i will add it to the example directory.
+
+Existing Examples:
+- WIP
 
 ## Packages Development - Steam specific
 
