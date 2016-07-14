@@ -1,11 +1,15 @@
 # Skadisteam
 
-## Packages
+## Packages - Core
 | Package          | Github Repository                                                         | Nuget Package                                                        | Version |  Build Status - Windows |
 | ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------- | ----------------------- |
 | skadisteam.login | [igeligel/skadisteam.login](https://github.com/igeligel/skadisteam.login) | [skadisteam.login](https://www.nuget.org/packages/skadisteam.login/) | 0.1.2-beta    | [![Build status](https://ci.appveyor.com/api/projects/status/qimk4dbiattf60e0?svg=true)](https://ci.appveyor.com/project/igeligel/skadisteam-login) |
 | skadisteam.inventory | Private - [igeligel/skadisteam.inventory](https://github.com/igeligel/skadisteam.inventory) | WIP | 0.1.0-beta | WIP |
 
+## Packages - Prices
+| Package          | Github Repository                                                         | Nuget Package                                                        | Version |  Build Status - Windows |
+| ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------- | ----------------------- |
+| skadiprices.csgofast | [igeligel/skadiprices.csgofast](https://github.com/igeligel/skadiprices.csgofast) | -/- | 0.1.0-beta    | -/- |
 
 ## Ship Dates
 
@@ -67,9 +71,6 @@
 
 
 ## Packages Development - Price provider specific
-
-### skadiprices.csgofast
-- WIP
 
 ### skadiprices.steamlytics
 - Make api access to [steamlytics.xyz](http://csgo.steamlytics.xyz/) with an api key
