@@ -4,12 +4,12 @@
 | Package          | Github Repository                                                         | Nuget Package                                                        | Version |  Build Status - Windows |
 | ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------- | ----------------------- |
 | skadisteam.login | [igeligel/skadisteam.login](https://github.com/igeligel/skadisteam.login) | [skadisteam.login](https://www.nuget.org/packages/skadisteam.login/) | 0.1.2-beta    | [![Build status](https://ci.appveyor.com/api/projects/status/qimk4dbiattf60e0?svg=true)](https://ci.appveyor.com/project/igeligel/skadisteam-login) |
-| skadisteam.inventory | Private - [igeligel/skadisteam.inventory](https://github.com/igeligel/skadisteam.inventory) | WIP | 0.1.0-beta | WIP |
+| skadisteam.inventory | [igeligel/skadisteam.inventory](https://github.com/igeligel/skadisteam.inventory) | [skadisteam.inventory](https://www.nuget.org/packages/skadisteam.inventory/) | 0.1.0-beta | [![Build status](https://ci.appveyor.com/api/projects/status/ln5ux6vby2ukfaog?svg=true)](https://ci.appveyor.com/project/igeligel/skadisteam-inventory) |
 
 ## Packages - Prices
 | Package          | Github Repository                                                         | Nuget Package                                                        | Version |  Build Status - Windows |
 | ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------- | ----------------------- |
-| skadiprices.csgofast | [igeligel/skadiprices.csgofast](https://github.com/igeligel/skadiprices.csgofast) | -/- | 0.1.0-beta    | -/- |
+| skadiprices.csgofast | [igeligel/skadiprices.csgofast](https://github.com/igeligel/skadiprices.csgofast) | [skadiprices.csgofast](https://www.nuget.org/packages/skadiprices.csgofast/) | 0.1.0 | [![Build status](https://ci.appveyor.com/api/projects/status/37o4mjjhds93tgha?svg=true)](https://ci.appveyor.com/project/igeligel/skadiprices-csgofast) |
 
 ## Ship Dates
 
@@ -23,12 +23,13 @@
 ### skadisteam.inventory (WIP)
 | Version | Release Date | Changelog |
 | ------- | ------------ | --------- |
-| -/- | -/- | -/- |
+| 0.1.0-beta | 2016-07-26 | [Link](https://github.com/igeligel/skadisteam.inventory/releases/tag/v0.1.0-beta) |
 
 ### skadiprices.csgofast (WIP)
 | Version | Release Date | Changelog |
 | ------- | ------------ | --------- |
-| -/- | -/- | -/- |
+| 0.1.0 | 2016-07-16 | [Link](https://github.com/igeligel/skadiprices.csgofast/releases/tag/v0.1.0) |
+| 0.1.0-beta | 2016-07-16 | [Link](https://github.com/igeligel/skadiprices.csgofast/releases/tag/v0.1.0-beta) |
 
 ## Examples
 I would be really happy for examples using the api parts. Just create a pull request with the example project and i will add it to the example directory.
@@ -39,7 +40,7 @@ Existing Examples:
 ## Packages Development - Steam specific
 
 ### skadisteam.inventory
-- Get inventories of user by public web api access or using partnerinventory
+- Get inventories of user by public web api access or using partnerinventory (✓)
 - add price providers dynamically by different packages which will be defined by an interface
 
 ### skadisteam.steamid
