@@ -1,10 +1,16 @@
 # Skadisteam
 
+## Packages - Shared
+| Package          | Github Repository                                                            | Nuget Package                                                        | Version |  Build Status - Windows |
+| ---------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------- | ----------------------- |
+| skadisteam.shared | [igeligel/skadisteam.shared](https://github.com/igeligel/skadisteam.shared) | WIP | WIP    | WIP |
+
 ## Packages - Core
 | Package          | Github Repository                                                         | Nuget Package                                                        | Version |  Build Status - Windows |
 | ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------- | ----------------------- |
 | skadisteam.login | [igeligel/skadisteam.login](https://github.com/igeligel/skadisteam.login) | [skadisteam.login](https://www.nuget.org/packages/skadisteam.login/) | 0.1.2-beta    | [![Build status](https://ci.appveyor.com/api/projects/status/qimk4dbiattf60e0?svg=true)](https://ci.appveyor.com/project/igeligel/skadisteam-login) |
 | skadisteam.inventory | [igeligel/skadisteam.inventory](https://github.com/igeligel/skadisteam.inventory) | [skadisteam.inventory](https://www.nuget.org/packages/skadisteam.inventory/) | 0.1.0-beta | [![Build status](https://ci.appveyor.com/api/projects/status/ln5ux6vby2ukfaog?svg=true)](https://ci.appveyor.com/project/igeligel/skadisteam-inventory) |
+| skadisteam.trade | [igeligel/skadisteam.trade](https://github.com/igeligel/skadisteam.trade) | WIP | WIP | WIP |
 
 ## Packages - Prices
 | Package          | Github Repository                                                         | Nuget Package                                                        | Version |  Build Status - Windows |
@@ -25,6 +31,11 @@
 | ------- | ------------ | --------- |
 | 0.1.0-beta | 2016-07-26 | [Link](https://github.com/igeligel/skadisteam.inventory/releases/tag/v0.1.0-beta) |
 
+### skadisteam.trade (WIP)
+| Version | Release Date | Changelog |
+| ------- | ------------ | --------- |
+| WIP | WIP | WIP |
+
 ### skadiprices.csgofast (WIP)
 | Version | Release Date | Changelog |
 | ------- | ------------ | --------- |
@@ -40,7 +51,6 @@ Existing Examples:
 ## Packages Development - Steam specific
 
 ### skadisteam.inventory
-- Get inventories of user by public web api access or using partnerinventory (✓)
 - add price providers dynamically by different packages which will be defined by an interface
 
 ### skadisteam.steamid
@@ -52,10 +62,8 @@ Existing Examples:
 
 ### skadisteam.trade
 - A package which should provide trading services like:
-    - Getting Trade Offers
-    - Accepting/Declining those
+    - Declining those
     - Sending Trades
-    - Confirming Trades (Lookup: [geel9/SteamAuth](https://github.com/geel9/SteamAuth))
 
 ### skadisteam.profiles
 - Enables the user to comment on user profiles and read out information of the profiles like:
@@ -82,8 +90,8 @@ Existing Examples:
 - Make api access to [steamlytics.xyz](http://csgo.steamlytics.xyz/) with an api key
 - Should be similar to the csgofast package
 
-### skadiprices.steamdata
-- Make api access to [steamdata.io](https://steamdata.io/) with an api key
+### skadiprices.steamapi
+- Make api access to [steamapi.io](https://steamapi.io/) with an api key
 - Should be similar to the csgofast package
 
 ## Contributing
