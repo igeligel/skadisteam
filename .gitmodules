@@ -1,0 +1,15 @@
+[submodule "src/FullSolution/skadisteam.login"]
+	path = src/FullSolution/skadisteam.login
+	url = https://github.com/igeligel/skadisteam.login.git
+[submodule "src/FullSolution/skadisteam.inventory"]
+	path = src/FullSolution/skadisteam.inventory
+	url = https://github.com/igeligel/skadisteam.inventory.git
+[submodule "src/FullSolution/skadisteam.trade"]
+	path = src/FullSolution/skadisteam.trade
+	url = https://github.com/igeligel/skadisteam.trade.git
+[submodule "src/FullSolution/skadiprices.csgofast"]
+	path = src/FullSolution/skadiprices.csgofast
+	url = https://github.com/igeligel/skadiprices.csgofast.git
+[submodule "src/FullSolution/skadisteam.shared"]
+	path = src/FullSolution/skadisteam.shared
+	url = https://github.com/igeligel/skadisteam.shared
