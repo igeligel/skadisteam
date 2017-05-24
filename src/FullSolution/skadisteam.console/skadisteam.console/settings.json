@@ -1,0 +1,7 @@
+﻿{
+  "username": "yourUsername",
+  "password": "yourPassword",
+  "sharedSecret": "yourSharedSecret",
+  "deviceId": "yourDeviceId",
+  "identitySecret":  "yourIdentitySecret" 
+}

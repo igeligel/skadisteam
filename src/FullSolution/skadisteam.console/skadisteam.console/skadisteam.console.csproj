@@ -1,8 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\skadisteam.inventory\src\skadisteam.inventory\skadisteam.inventory.csproj" />
+    <ProjectReference Include="..\..\skadisteam.login\src\skadisteam.login\skadisteam.login.local.csproj" />
+    <ProjectReference Include="..\..\skadisteam.shared\src\skadisteam.shared\skadisteam.shared.csproj" />
+    <ProjectReference Include="..\..\skadisteam.trade\src\skadisteam.trade\skadisteam.trade.local.csproj" />
+  </ItemGroup>
 
 </Project>
