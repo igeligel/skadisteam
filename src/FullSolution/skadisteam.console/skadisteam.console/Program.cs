@@ -29,8 +29,8 @@ namespace skadisteam.console
             var skadiLoginData = new SkadiLoginData
             {
                 Username = ConsoleSettings.Instance["username"],
-                Password = ConsoleSettings.Instance["username"],
-                SharedSecret = ConsoleSettings.Instance["username"]
+                Password = ConsoleSettings.Instance["password"],
+                SharedSecret = ConsoleSettings.Instance["sharedSecret"]
             };
             var skadiLogin = new SkadiLogin();
             var skadiLoginResponse = skadiLogin.Execute(skadiLoginData);
